@@ -1,11 +1,12 @@
-source :rubygems
+# frozen_string_literal: true
 
-gem "rake"
-gem "data_mapper"
-#gem "dm-sqlite-adapter"
-#gem "dm-postgres-adapter"
-gem "dm-mysql-adapter"
-gem "dm-migrations"
+source 'https://rubygems.org'
 
-gem "pry"
-#gem "pry-debugger"
+gem 'data_mapper'
+gem 'rake'
+# gem "dm-sqlite-adapter"
+# gem "dm-postgres-adapter"
+gem 'dm-migrations'
+gem 'dm-mysql-adapter'
+gem 'pry'
+# gem "pry-debugger"
